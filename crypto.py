@@ -13,6 +13,8 @@ class CryptoTrader:
             'enableRateLimit': True,
         })
         self.logger = self.setup_logger()
+        # delete them
+        self.setup_logger = self.setup_logger()
 
     def setup_logger(self):
         logger = logging.getLogger('CryptoTrader')
